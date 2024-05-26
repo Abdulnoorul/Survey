@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="icon" type="image/x-icon" href="./Icon-removebg-preview.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <h1>Survey Form by Coding Ninjas</h1>
+        <p>
+            Please take a 
+            few minutes to complete our short
+             survey and share your thoughts. 
+             Your responses will help us ti improve.
+              The survey is anonymous and should only take 2min.
+               to complete. Thank you for your time!
+
+        </p>
+    </section>
+    <section>
+        <form action="#home">
+            <label for="name" id="full">Full Name <sup>*</sup></label><br>
+            <label for="name" class="fname">First Name <sup>*</sup>:</label>
+            <input type="text" id="fname" placeholder="Enter your First name"><br>
+            <label for="name" class="lname">Last Name <sup>*</sup>:</label>
+            <input type="text" id="lname" placeholder="Enter your Last name"><br>
+
+            <label for="email" id="mail">Email <sup>*</sup>:</label>
+            <input type="email" id="email" placeholder="Enter valid Email"><br>
+
+            <label for="Gender" id="gender">Gender</label><br>
+            <input type="radio" id="male">
+            <span id="male">Male</span><br>
+            <input type="radio" id="female">
+            <span id="female">Female</span><br>
+
+            <label for="birthday" id="birthday">Birthday:</label><br>
+            <input type="date" name="birthday"><br>
+
+            <label for="suggestion" id="suggestion">Suggestion:</label><br>
+            <input type="textarea" id="suggest" placeholder="Minumum 50 words"><br>
+
+            <span id="opt">How good you are in Coding</span><br>
+            <input type="radio">
+            <span id="beg">Beginner</span><br>
+            <input type="radio">
+            <span id="int">Intermediate</span><br>
+            <input type="radio">
+            <span id="exe">Expert</span><br>
+            
+            <button id="button">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
